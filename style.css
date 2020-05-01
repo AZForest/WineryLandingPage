@@ -191,10 +191,10 @@ img {
 
 .box-header {
     font-size: 24px;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
     color: var(--secondary-color);
-    padding-bottom: 0px;
+    padding: 0;
     font-weight: 700;
 }
 
@@ -257,8 +257,10 @@ img {
     grid-column: 3 / 8;
     grid-row: 1 / 14;
     z-index: 5;
-    padding: 20px;
+    padding: 10px 20px;
 }
+
+
 
 
 
@@ -283,7 +285,7 @@ img {
 .b {
     grid-column: 8 / 13;
     grid-row: 1 / 11;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 .b ul {
